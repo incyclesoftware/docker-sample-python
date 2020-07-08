@@ -10,9 +10,7 @@ weather = [
    ,{"date":"2020-07-01T13:14:34.8751169-04:00","temperatureC":47,"temperatureF":116,"summary":"Hot"}
    ,{"date":"2020-07-02T13:14:34.8751176-04:00","temperatureC":42,"temperatureF":107,"summary":"Hot"}
    ,{"date":"2020-07-03T13:14:34.875118-04:00","temperatureC":-4,"temperatureF":25,"summary":"Balmy"}
-   
 ]
-
 
 @app.route('/', methods=['GET'])
 def home():
