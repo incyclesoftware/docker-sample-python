@@ -9,7 +9,7 @@ FROM dependencies AS build
 WORKDIR /app
 COPY . /app
 
-FROM python:3.6-alpine3.7 AS release  
+FROM python:3.6-alpine3.7 AS publish  
 # Create app directory
 WORKDIR /app
 
